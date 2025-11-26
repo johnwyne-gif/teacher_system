@@ -1,0 +1,1 @@
+<?php include 'includes/db.php'; $id=$_GET['id']; $conn->query("DELETE FROM teaching_load WHERE TeachingLoad_ID=$id"); header('Location:view_instructor.php'); ?>

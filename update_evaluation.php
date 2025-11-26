@@ -1,0 +1,1 @@
+<?php include 'includes/db.php'; $id=$_POST['id']; $sem=$_POST['Semester']; $y=$_POST['Academic_Year']; $r=$_POST['Rating']; $conn->query("UPDATE evaluation SET Semester='$sem', Academic_Year='$y', Rating='$r' WHERE Evaluation_ID=$id"); header('Location:view_instructor.php'); ?>

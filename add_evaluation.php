@@ -26,7 +26,7 @@ include 'includes/header.php';
         }
       ?>
     </select>
-    <label>Semester</label><select name="semester"><option>1st</option><option>2nd</option></select>
+    <label>Semester</label><select name="semester"><option>1st</option><option>2nd<option>3rd</option><option>4th</option></select>
     <label>Academic Year</label><input name="ay" placeholder="2024-2025">
     <label>Rating (0-5)</label><input name="rating" type="number" step="0.01" min="0" max="5" required>
     <button class="btn primary" type="submit">Save Evaluation</button>

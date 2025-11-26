@@ -1,0 +1,1 @@
+<?php include 'includes/db.php'; $id=$_GET['id']; $conn->query("DELETE FROM qualification WHERE Qualification_ID=$id"); header('Location:view_instructor.php'); ?>

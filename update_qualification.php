@@ -1,0 +1,1 @@
+<?php include 'includes/db.php'; $id=$_POST['id']; $d=$_POST['Degree']; $i=$_POST['Institution']; $g=$_POST['Graduation_Year']; $conn->query("UPDATE qualification SET Degree='$d', Institution='$i', Graduation_Year='$g' WHERE Qualification_ID=$id"); header('Location:view_instructor.php'); ?>

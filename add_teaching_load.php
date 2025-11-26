@@ -27,7 +27,7 @@ include 'includes/header.php';
       ?>
     </select>
     <label>Subject Name</label><input name="subject" required>
-    <label>Semester</label><select name="semester"><option>1st</option><option>2nd</option></select>
+    <label>Semester</label><select name="semester"><option>1st</option><option>2nd<option>3rd</option><option>4th</option>/option></select>
     <label>Academic Year</label><input name="ay" placeholder="2024-2025">
     <button class="btn primary" type="submit">Assign</button>
   </form>
